@@ -1,2 +1,9 @@
 # Bonity
- My Website Project
+## A Bonington's Website Project
+## Techniques Used
+- HTML
+- CSS 
+  - normalize.css
+  - 
+- Javascript
+- 
