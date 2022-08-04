@@ -5,8 +5,16 @@
     --color-accent: #ff3400;
     --color-headings: #1b0760;
     --color-body: #918ca4;
+    --color-border: #cccccc;
+
+    --border-radius: 30px;
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
 /* Typography */
 html {
@@ -162,4 +170,103 @@ a {
     width: 64px;
     height: 64px;
     border-radius: 100%;
+}
+
+
+/* Buttons */
+.btn {
+    border: 0;
+    border-radius: 40px;
+    padding: 2rem 3rem;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn--primary {
+    background: var(--color-primary);
+    color: #ffffff;
+}
+.btn--primary:hover {
+    background: #fd4516;
+}
+.btn--primary:hover {
+    background: #3a8ffd;
+}
+
+.btn--secondary {
+    background: var(--color-secondary);
+    color: #ffffff;
+}
+.btn--secondary:hover {
+    background: #00c8eb;
+}
+
+.btn--accent {
+    background: var(--color-accent);
+    color: #ffffff;
+}
+.btn--accent:hover {
+    background: #ec3000;
+}
+
+.btn--block {
+    width: 100%;
+    display: inline-block;
+}
+
+.btn-outline {
+    background: #ffffff;
+    color: var(--color-headings);
+    border: 2px solid var(--color-headings);
+}
+.btn-outline {
+    background: var(--color-headings);
+    color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) {
+    .btn {
+        font-size: 1.5rem;
+    }
+}
+
+/* Input */
+.input {
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1.5rem 3.5rem;
+    outline: 0;
+    font-size: 2rem;
+    color: var(--color-headings);
+}
+
+::placeholder {
+    color: #cdcbd7;
+}
+
+.input-group {
+    display: flex;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+}
+
+.input-group .input {
+    border: 0;
+    flex-grow: 1;
+    padding: 1.5rem 1rem;
+}
+
+.input-group .btn {
+    margin: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+    .input {
+        font-size: 1.5rem;
+    }
 }
