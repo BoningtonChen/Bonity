@@ -14,6 +14,7 @@ html {
 
 body {
     font-family:
+            'Noto Sans SC',
             -apple-system, BlinkMacSystemFont, "Segoe UI",
             Roboto, Oxygen-Sans, Ubuntu, Cantarell,
             "Helvetica Neue", sans-serif;
@@ -63,6 +64,7 @@ p {
 a {
     text-decoration: none;
 }
+
 .link-arrow {
     color: var(--color-accent);
     text-transform: uppercase;
@@ -81,5 +83,34 @@ a {
 @media screen and (min-width: 1024px) {
     .link-arrow {
         font-size: 1.5rem;
+    }
+}
+
+/* Badges */
+.badge {
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    white-space: nowrap;
+}
+.badge--primary {
+    background: var(--color-primary);
+    color: #ffffff;
+}
+.badge--secondary {
+    background: var(--color-secondary);
+    color: #ffffff;
+}
+.badge-small {
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .badge {
+        font-size: 1.5rem;
+    }
+    .badge-small {
+        font-size: 1.2rem;
     }
 }
