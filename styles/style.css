@@ -1,0 +1,16 @@
+/* Body-root */
+:root {
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+}
+/* Input */
+.input {
+    padding: 1.5rem 3.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+    outline: 0;
+    color: var(--color-headings);
+}
