@@ -154,6 +154,7 @@ a {
 }
 
 
+/* Icons */
 .icon {
     width: 40px;
     height: 40px;
@@ -235,6 +236,7 @@ a {
     }
 }
 
+
 /* Input */
 .input {
     border: 1px solid var(--color-border);
@@ -269,4 +271,26 @@ a {
     .input {
         font-size: 1.5rem;
     }
+}
+
+
+/* Cards */
+.card {
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+}
+
+.card__header,
+.card__body {
+    padding: 2rem 3rem;
+}
+
+.card--primary .card__header {
+    background: var(--color-primary);
+    color: #ffffff;
+}
+.card--secondary .card__header {
+    background: var(--color-secondary);
+    color: #ffffff;
 }

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="  输入组构建-完善">
-      <change afterPath="$PROJECT_DIR$/templates/input-groups.html" afterDir="false" />
+    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="输入组构建-完善">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <workItem from="1659593248956" duration="4746000" />
       <workItem from="1659606710454" duration="1621000" />
       <workItem from="1659608446684" duration="1054000" />
-      <workItem from="1659611288220" duration="9568000" />
+      <workItem from="1659611288220" duration="10219000" />
     </task>
     <task id="LOCAL-00001" summary="测试-提交">
       <created>1659593470929</created>
@@ -145,11 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659624491542</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="输入组构建-完善">
+      <created>1659656993823</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659656993823</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -173,6 +184,7 @@
     <MESSAGE value="列表构建-完善" />
     <MESSAGE value="图标构建-完善" />
     <MESSAGE value="  输入组构建-完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="  输入组构建-完善" />
+    <MESSAGE value="输入组构建-完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="输入组构建-完善" />
   </component>
 </project>
