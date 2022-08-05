@@ -1,11 +1,15 @@
 # Bonity
+
 ## A Bonington's Website Project
 
 ## Techniques Used
+
 ### Front-end
 - HTML
+
 - CSS 
   - normalize.css
+
 - Javascript
 
 
@@ -14,11 +18,35 @@
   - CSS Sprite Generator Tool
   - Font Awesome Kits (FREE Kits)
   - svgsprite.es
+
 ### Back-end
 
-> ## Supplement
+
+> ## Building Tools
+> 
+>
 > - Build Tools
 >   - Webstorm
 >   - Github Desktop
 > - Idea from "code with mosh"
 
+## Introduction
+
+### Webpage
+- Widgets
+  - Badge
+  - Block-quote
+  - Card
+  - Grid
+  - Icon
+  - Input-groups
+    - Input area
+    - Icon
+  - Link
+  - List
+  - Media
+  - Plan
+    - Plan
+    - Popular plan
+  - Recommend
+  - Bubble ( Callout )

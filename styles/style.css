@@ -1,4 +1,4 @@
-/* Body-root WorkSpace */
+/* TODO: Body-root WorkSpace */
 :root {
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
@@ -17,7 +17,7 @@
     box-sizing: border-box;
 }
 
-/* Typography */
+/* TODO: Typography */
 html {
     font-size: 62.5%;
 }
@@ -71,7 +71,7 @@ p {
 }
 
 
-/* Links */
+/* TODO: Links */
 a {
     text-decoration: none;
 }
@@ -98,7 +98,7 @@ a {
 }
 
 
-/* Badges */
+/* TODO: Badges */
 .badge {
     border-radius: 20px;
     font-size: 2rem;
@@ -129,7 +129,7 @@ a {
 }
 
 
-/* Lists */
+/* TODO: Lists */
 .list {
     list-style: none;
     padding-left: 0;
@@ -156,7 +156,7 @@ a {
 }
 
 
-/* Icons */
+/* TODO: Icons */
 .icon {
     width: 40px;
     height: 40px;
@@ -190,7 +190,7 @@ a {
 }
 
 
-/* Buttons */
+/* TODO: Buttons */
 .btn {
     border: 0;
     border-radius: 40px;
@@ -231,6 +231,11 @@ a {
     background: #ec3000;
 }
 
+.btn--stretched {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
 .btn--block {
     width: 100%;
     background: #ffffff;
@@ -256,7 +261,7 @@ a {
 }
 
 
-/* Input */
+/* TODO: Input */
 .input {
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
@@ -293,7 +298,7 @@ a {
 }
 
 
-/* Cards */
+/* TODO: Cards */
 .card {
     border-radius: 7px;
     box-shadow: 0 0 20px 10px #f3f3f3;
@@ -318,7 +323,7 @@ a {
     background: #02cdf1;
 }
 
-/* Plans */
+/* TODO: Plans */
 .plan__name {
     font-weight: 500;
     font-size: 2.4rem;
@@ -376,7 +381,7 @@ a {
 }
 
 
-/* Media */
+/* TODO: Media */
 .media {
     display: flex;
 }
@@ -394,7 +399,7 @@ a {
 }
 
 
-/* Quotes */
+/* TODO: Quotes */
 .quote {
     font-size: 3rem;
     font-style: italic;
@@ -442,7 +447,7 @@ a {
     }
 }
 
-/* Grids */
+/* TODO: Grids */
 .grid {
     display: grid;
 }
@@ -460,7 +465,7 @@ a {
 }
 
 
-/* Testimonial */
+/* TODO: Testimonial */
 .testimonial {
     padding: 3rem;
 }
@@ -486,5 +491,47 @@ a {
 
     .testimonial .quote {
         margin-left: 6rem;
+    }
+}
+
+
+/* TODO: Callout */
+.callout {
+    padding: 4rem;
+    border-radius: 5px;
+}
+
+.callout--primary {
+    background: var(--color-primary);
+    color: #ffffff;
+}
+
+.callout__heading {
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.callout .btn {
+    justify-self: center;
+    align-self: center;
+}
+
+.callout__content {
+    align-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .callout .grid--1t2 {
+        grid-template-columns: 1fr auto;
+    }
+
+    .callout__content {
+        text-align: left;
+    }
+
+    .callout .btn {
+        justify-self: start;
+        margin: 0 2rem;
     }
 }
