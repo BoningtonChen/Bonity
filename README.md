@@ -13,6 +13,7 @@
   - Google Fonts
   - CSS Sprite Generator Tool
   - Font Awesome Kits (FREE Kits)
+  - svgsprite.es
 ### Back-end
 
 > ## Supplement
