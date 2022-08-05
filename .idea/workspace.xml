@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="输入组构建-完善">
+    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="卡片构建-完善">
+      <change afterPath="$PROJECT_DIR$/icons/fire-solid.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
@@ -74,7 +75,7 @@
       <workItem from="1659593248956" duration="4746000" />
       <workItem from="1659606710454" duration="1621000" />
       <workItem from="1659608446684" duration="1054000" />
-      <workItem from="1659611288220" duration="10219000" />
+      <workItem from="1659611288220" duration="12679000" />
     </task>
     <task id="LOCAL-00001" summary="测试-提交">
       <created>1659593470929</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659656993823</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="卡片构建-完善">
+      <created>1659657675848</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659657675848</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +193,7 @@
     <MESSAGE value="图标构建-完善" />
     <MESSAGE value="  输入组构建-完善" />
     <MESSAGE value="输入组构建-完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="输入组构建-完善" />
+    <MESSAGE value="卡片构建-完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="卡片构建-完善" />
   </component>
 </project>
