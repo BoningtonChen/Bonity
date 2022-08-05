@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="计划组件构建-完善">
-      <change afterPath="$PROJECT_DIR$/icons/photo-film-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icons/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="媒体组件构建-基础" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +70,7 @@
       <workItem from="1659593248956" duration="4746000" />
       <workItem from="1659606710454" duration="1621000" />
       <workItem from="1659608446684" duration="1054000" />
-      <workItem from="1659611288220" duration="13494000" />
+      <workItem from="1659611288220" duration="13858000" />
     </task>
     <task id="LOCAL-00001" summary="测试-提交">
       <created>1659593470929</created>
@@ -175,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659660225404</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="媒体组件构建-基础">
+      <created>1659661245933</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659661245933</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +211,7 @@
     <MESSAGE value="输入组构建-完善" />
     <MESSAGE value="卡片构建-完善" />
     <MESSAGE value="计划组件构建-完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="计划组件构建-完善" />
+    <MESSAGE value="媒体组件构建-基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="媒体组件构建-基础" />
   </component>
 </project>
