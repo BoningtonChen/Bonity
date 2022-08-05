@@ -31,22 +31,23 @@
 > - Idea from "code with mosh"
 
 ## Introduction
-
+TODO: Add some descriptions here...
 ### Webpage
-- Widgets
-  - Badge
-  - Block-quote
-  - Card
-  - Grid
-  - Icon
-  - Input-groups
-    - Input area
+- #### Index Page
+  - Widgets
+    - Badge
+    - Block-quote
+    - Card
+    - Grid
     - Icon
-  - Link
-  - List
-  - Media
-  - Plan
+    - Input-groups
+      - Input area
+      - Icon
+    - Link
+    - List
+    - Media
     - Plan
-    - Popular plan
-  - Recommend
-  - Bubble ( Callout )
+      - Plan
+      - Popular plan
+    - Recommend
+    - Bubble ( Callout )
