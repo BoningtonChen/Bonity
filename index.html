@@ -17,40 +17,106 @@
 <!--
 Index content
 -->
-<section class="block container block-register">
-  <header class="block__header">
-    <h2>开始注册自己的专属博客计划</h2>
-    <p>
-      包含个人博客，以及可选的附加资格。
-    </p>
-    <p>
-      如有意向参与项目构建，请联系开发者。
-    </p>
-  </header>
-  <div class="input-group">
-    <input
-            type="text"
-            class="input"
-            placeholder="请在此输入用户名..."
-    >
-    <button class="btn btn--accent">
-      <svg class="icon icon--white">
-        <use xlink:href="icons/sprite.svg#magnifying-glass-solid"></use>
-      </svg>
-      搜索
-    </button>
-  </div>
-  <ul class="list block-register__option">
-    <li>
-      <span class="badge badge--secondary">
-        仅 博客
-      </span>
-    </li>
-    <li>+ 社区入驻</li>
-    <li>+ 社区注册资格</li>
-    <li>参与项目构建</li>
-  </ul>
-</section>
+  <section class="block container block-register">
+    <header class="block__header">
+      <h2>开始注册自己的专属博客计划</h2>
+      <p>
+        包含个人博客，以及可选的附加资格。
+      </p>
+      <p>
+        如有意向参与项目构建，请联系开发者。
+      </p>
+    </header>
+    <div class="input-group">
+      <input
+              type="text"
+              class="input"
+              placeholder="请在此输入用户名..."
+      >
+      <button class="btn btn--accent">
+        <svg class="icon icon--white">
+          <use xlink:href="icons/sprite.svg#magnifying-glass-solid"></use>
+        </svg>
+        搜索
+      </button>
+    </div>
+    <ul class="list block-register__option">
+      <li>
+        <span class="badge badge--secondary">
+          仅 博客
+        </span>
+      </li>
+      <li>+ 社区入驻</li>
+      <li>+ 社区注册资格</li>
+      <li>参与项目构建</li>
+    </ul>
+  </section>
+
+  <section class="block container block-plans">
+    <div class="grid grid--1t3">
+
+      <div class="plan">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <h3 class="plan__name">仅 博客</h3>
+            <span class="plan__price">0 ¥</span>
+            <span class="plan__billing-cycle">/月</span>
+            <span class="badge bade--secondary badge--small">免费</span>
+            <span class="plan__description">构建和部署您的个人博客。免费，快速上手</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__iterm">浏览本站的全部公开博客</li>
+              <li class="list__iterm">添加好友，即时分享</li>
+              <li class="list__iterm">基础数据存储服务</li>
+            </ul>
+            <button class="btn btn--outline btn--block">快速上手</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="plan plan--popular">
+        <div class="card card--primary">
+          <header class="card__header">
+            <h3 class="plan__name">博客 +社区入驻</h3>
+            <span class="plan__price">0 ¥</span>
+            <span class="plan__billing-cycle">/月</span>
+            <span class="badge bade--secondary badge--small">*可购买数据增益</span>
+            <span class="plan__description">自由支配您的个人博客，外加畅游公开社区。完全免费，自由发挥！</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__iterm">以上全部内容，附加——</li>
+              <li class="list__iterm">浏览时下热门的社区讨论</li>
+              <li class="list__iterm">数据存储拓展服务</li>
+            </ul>
+            <button class="btn btn--outline btn--block">立刻开始！</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="plan">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <h3 class="plan__name">博客 +社区注册资格</h3>
+            <span class="plan__price">0 ¥</span>
+            <span class="plan__billing-cycle">/月</span>
+            <span class="badge bade--secondary badge--small">*仅早期资格免费</span>
+            <span class="plan__description">成为您兴趣领域的掌门人。完全管理您的社区，没有限制。</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__iterm">以上全部内容，附加——</li>
+              <li class="list__iterm">管理和掌控您的社区</li>
+              <li class="list__iterm">数据管理查询和增益</li>
+            </ul>
+            <button class="btn btn--outline btn--block">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
 <!--
 Index script

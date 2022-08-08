@@ -328,11 +328,19 @@ a {
     color: #ffffff;
 }
 
+.card--primary .badge--primary {
+    background: #126de4;
+}
+
 .card--secondary .badge--secondary {
     background: #02cdf1;
 }
 
 /* TODO: Plans */
+.plan {
+    transition: transform 0.2s ease-out;
+}
+
 .plan__name {
     font-weight: 500;
     font-size: 2.4rem;
@@ -359,6 +367,10 @@ a {
 }
 
 .plan--popular {
+    transform: scale(1.1);
+}
+
+.plan--popular .card__header {
     position: relative;
 }
 
@@ -367,8 +379,16 @@ a {
     width: 40px;
     display: inline-block;
     position: absolute;
-    top: -8px;
+    top: 2px;
     right: 5%;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+}
+
+.plan--popular:hover {
+    transform: scale(1.15);
 }
 
 @media screen and (min-width: 1024px) {
@@ -726,7 +746,8 @@ a {
     }
 }
 
-/* TODO: Domain block*/
+
+/* TODO: Register Block*/
 .block-register .input-group {
     box-shadow: 0 0 30px 20px #e6ebee;
     border: 0;
@@ -749,4 +770,15 @@ a {
     .block-register__option {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
+}
+
+
+/* TODO: Plans Block */
+.block-plans .grid {
+    gap: 8rem 4rem;
+}
+
+.block .card {
+    max-width: 500px;
+    margin: 0 auto;
 }

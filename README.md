@@ -55,3 +55,4 @@ TODO: Add some descriptions here...
     - Navigation Bar
     - Hero block
     - Register section
+    - Plan block
