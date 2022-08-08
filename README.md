@@ -51,3 +51,5 @@ TODO: Add some descriptions here...
       - Popular plan
     - Recommend
     - Bubble ( Callout )
+    - Block
+    - Navigation Bar

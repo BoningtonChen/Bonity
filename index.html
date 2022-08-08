@@ -17,35 +17,26 @@
 <!--
 Index content
 -->
-  <section class="block">
-    <div class="container">
-      <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus in magnam pariatur possimus quas? In odit perspiciatis quidem repellendus unde!
-        </p>
-      </header>
-      <div style="width: 30%; padding: 4rem">
-        <div class="card card--secondary">
-          <header class="card__header">Card Title</header>
-          <div class="card__body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores beatae commodi corporis eos magni maiores possimus quam sequi vitae.
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="block block--dark block--skewed-left">
-    <div class="container">
-      <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus in magnam pariatur possimus quas? In odit perspiciatis quidem repellendus unde!
-        </p>
-      </header>
-    </div>
-  </section>
+<nav class="nav collapsible">
+  <a href="/"><img src="images/Bonity_LOGO_dark.PNG" alt=""></a>
+  <svg class="icon icon--white nav__toggler">
+    <use xlink:href="icons/sprite.svg#bars-solid"></use>
+  </svg>
+  <ul class="list nav__list collapsible__content">
+    <li class="nav__item">
+      <a href="#">个人博客</a>
+    </li>
+    <li class="nav__item">
+      <a href="#">开放式社区</a>
+    </li>
+    <li class="nav__item">
+      <a href="#">专属社区</a>
+    </li>
+    <li class="nav__item">
+      <a href="#">开源项目 构建</a>
+    </li>
+  </ul>
+</nav>
 
 <!--
 Index script
