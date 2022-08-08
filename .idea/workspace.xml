@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="注册视图-构建-增补模版">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="计划选择组件-构建-增补模版">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <workItem from="1659611288220" duration="17475000" />
       <workItem from="1659666942519" duration="11338000" />
       <workItem from="1659857685666" duration="6246000" />
-      <workItem from="1659926989259" duration="14918000" />
+      <workItem from="1659926989259" duration="15826000" />
     </task>
     <task id="LOCAL-00001" summary="测试-提交">
       <created>1659593470929</created>
@@ -279,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659948854950</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="计划选择组件-构建-增补模版">
+      <created>1659953057348</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1659953057348</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +305,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="测试-提交" />
     <MESSAGE value="提交更新1" />
     <MESSAGE value="提交-更新2" />
     <MESSAGE value="递交颜色基础定义" />
@@ -325,6 +329,7 @@
     <MESSAGE value="导航栏-构建-增补模版" />
     <MESSAGE value="首页焦点视图-构建-增补模版" />
     <MESSAGE value="注册视图-构建-增补模版" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册视图-构建-增补模版" />
+    <MESSAGE value="计划选择组件-构建-增补模版" />
+    <option name="LAST_COMMIT_MESSAGE" value="计划选择组件-构建-增补模版" />
   </component>
 </project>
