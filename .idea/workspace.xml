@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="导航栏-构建-增补模版">
-      <change afterPath="$PROJECT_DIR$/images/example-W_HuangHu@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/example-W_HuangHu@1x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/example-W_HuangHu@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/example-W_HuangHu@2x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/example-W_HuangHu@original.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/heroes.html" afterDir="false" />
+    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="首页焦点视图-构建-增补模版">
+      <change afterPath="$PROJECT_DIR$/icons/magnifying-glass-solid.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icons/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
@@ -59,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/bonington/GiHub/Bonity/images",
+    "last_opened_file_path": "/Users/bonington/GiHub/Bonity/icons",
     "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "vue.rearranger.settings.migration": "true"
@@ -67,9 +63,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/icons" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/icons" />
       <recent name="$PROJECT_DIR$/styles" />
     </key>
   </component>
@@ -88,7 +84,7 @@
       <workItem from="1659611288220" duration="17475000" />
       <workItem from="1659666942519" duration="11338000" />
       <workItem from="1659857685666" duration="6246000" />
-      <workItem from="1659926989259" duration="8443000" />
+      <workItem from="1659926989259" duration="11153000" />
     </task>
     <task id="LOCAL-00001" summary="测试-提交">
       <created>1659593470929</created>
@@ -272,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659935813010</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="首页焦点视图-构建-增补模版">
+      <created>1659940459784</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659940459784</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +319,7 @@
     <MESSAGE value="块元素组件-构建-完善" />
     <MESSAGE value="块元素组件-构建-增补模版" />
     <MESSAGE value="导航栏-构建-增补模版" />
-    <option name="LAST_COMMIT_MESSAGE" value="导航栏-构建-增补模版" />
+    <MESSAGE value="首页焦点视图-构建-增补模版" />
+    <option name="LAST_COMMIT_MESSAGE" value="首页焦点视图-构建-增补模版" />
   </component>
 </project>
