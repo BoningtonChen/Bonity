@@ -53,3 +53,4 @@ TODO: Add some descriptions here...
     - Bubble ( Callout )
     - Block
     - Navigation Bar
+    - Hero block
