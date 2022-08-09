@@ -25,13 +25,18 @@
 > ## Building Tools
 > 
 >
-> - Build Tools
->   - Webstorm
->   - Github Desktop
-> - Idea from "code with mosh"
+> - Building Tools
+>   - Webstorm (Front-end)
+>   - GitHub Desktop (Git Publish)
+>   - Affinity Photo (Image Qualifier and Zooming)
+>   - Affinity Designer (Graphic Design)
+>   - Affinity Publisher (Typography)
+>   - Permute 3 (Transcoding)
 
 ## Introduction
-TODO: Add some descriptions here...
+- A very first front-end project build by Bonington Chen
+- Idea partly from a front-end course series "Code With Mosh"
+
 ### Webpage
 - #### Index Page
   - Widgets
@@ -56,3 +61,5 @@ TODO: Add some descriptions here...
     - Hero block
     - Register section
     - Plan block
+    - Introduction article
+    - Feature display

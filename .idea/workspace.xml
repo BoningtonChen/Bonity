@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="计划选择组件-构建-增补模版">
+      <change afterPath="$PROJECT_DIR$/icons/address-card-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/house-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ChengShan@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ChengShan@1x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ChengShan@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ChengShan@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ChengShan@original.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-W_HuangHu@original.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-XingJi_TiaoWang@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-XingJi_TiaoWang@1x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-XingJi_TiaoWang@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-XingJi_TiaoWang@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-XingJi_TiaoWang@original.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ZhuoXinSiKaDi@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ZhuoXinSiKaDi@1x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ZhuoXinSiKaDi@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ZhuoXinSiKaDi@2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/example-ZhuoXinSiKaDi@original.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pictures(with different sizes).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icons/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/example-W_HuangHu@original.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +66,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Project.color&quot;: &quot;5c3f2a&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bonington/GiHub/Bonity/icons&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Project.color": "5c3f2a",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/bonington/GiHub/Bonity/icons",
+    "list.type.of.created.stylesheet": "CSS",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/icons" />
@@ -79,7 +104,11 @@
       <workItem from="1659611288220" duration="17475000" />
       <workItem from="1659666942519" duration="11338000" />
       <workItem from="1659857685666" duration="6246000" />
-      <workItem from="1659926989259" duration="15826000" />
+      <workItem from="1659926989259" duration="16048000" />
+      <workItem from="1660000986705" duration="2671000" />
+      <workItem from="1660016481857" duration="497000" />
+      <workItem from="1660017126658" duration="372000" />
+      <workItem from="1660017542335" duration="4635000" />
     </task>
     <task id="LOCAL-00001" summary="测试-提交">
       <created>1659593470929</created>
@@ -284,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659953057348</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="计划选择组件-构建-增补模版">
+      <created>1660000753067</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1660000753067</updated>
+    </task>
+    <task id="LOCAL-00031" summary="计划选择组件-构建-增补模版">
+      <created>1660000839033</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660000839033</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
