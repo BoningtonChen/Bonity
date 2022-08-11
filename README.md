@@ -25,13 +25,18 @@
 > ## Building Tools
 > 
 >
-> - Building Tools
->   - Webstorm (Front-end)
->   - GitHub Desktop (Git Publish)
->   - Affinity Photo (Image Qualifier and Zooming)
->   - Affinity Designer (Graphic Design)
->   - Affinity Publisher (Typography)
->   - Permute 3 (Transcoding)
+>- Webstorm (Front-end)
+>- Google Chrome (Local live server and webpage debugging)
+>- Node (Launching npm)
+>- npm (Launching parcel-bundler)
+>- parcel (Pack up and deploy website)
+>- Netlify (Website online deployment)
+>- GitLink (Upload local markup)
+>- GitHub Desktop (Git Publish)
+>- Affinity Photo (Image Qualifier and Zooming)
+>- Affinity Designer (Graphic Design)
+>- Affinity Publisher (Typography)
+>- Permute 3 (Transcoding)
 
 ## Introduction
 - A very first front-end project built by Bonington Chen

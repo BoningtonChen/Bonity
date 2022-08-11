@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="add .htmlnanorc">
+    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="build project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +99,8 @@
       <workItem from="1660174872717" duration="1006000" />
       <workItem from="1660176667618" duration="13460000" />
       <workItem from="1660204439331" duration="1321000" />
+      <workItem from="1660220436505" duration="127000" />
+      <workItem from="1660222659373" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="测试-提交">
       <created>1659593470929</created>
@@ -372,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660205244210</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="build project">
+      <created>1660220519577</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1660220519577</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +416,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="组件构建-完善" />
     <MESSAGE value="列表构建-完善" />
     <MESSAGE value="图标构建-完善" />
     <MESSAGE value="  输入组构建-完善" />
@@ -431,7 +440,8 @@
     <MESSAGE value="底栏模块-构建-增补模版" />
     <MESSAGE value="构建发行版&#10;add parcel&#10;build" />
     <MESSAGE value="add .htmlnanorc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .htmlnanorc" />
+    <MESSAGE value="build project" />
+    <option name="LAST_COMMIT_MESSAGE" value="build project" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
