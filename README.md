@@ -65,3 +65,4 @@
     - Feature display
     - Showcase block
     - Recommend block
+    - Footer
