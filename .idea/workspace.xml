@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="特性展示组件-构建-增补模版">
-      <change afterPath="$PROJECT_DIR$/templates/recommend block.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="推荐样例模块-构建-增补模版" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +84,7 @@
       <workItem from="1660017542335" duration="6624000" />
       <workItem from="1660174803732" duration="38000" />
       <workItem from="1660174872717" duration="1006000" />
-      <workItem from="1660176667618" duration="5308000" />
+      <workItem from="1660176667618" duration="5622000" />
     </task>
     <task id="LOCAL-00001" summary="测试-提交">
       <created>1659593470929</created>
@@ -336,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660179933549</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="推荐样例模块-构建-增补模版">
+      <created>1660182378120</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1660182378120</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交-更新2" />
     <MESSAGE value="递交颜色基础定义" />
     <MESSAGE value="定义字体样式" />
     <MESSAGE value="组件初步构建" />
@@ -382,6 +383,7 @@
     <MESSAGE value="注册视图-构建-增补模版" />
     <MESSAGE value="计划选择组件-构建-增补模版" />
     <MESSAGE value="特性展示组件-构建-增补模版" />
-    <option name="LAST_COMMIT_MESSAGE" value="特性展示组件-构建-增补模版" />
+    <MESSAGE value="推荐样例模块-构建-增补模版" />
+    <option name="LAST_COMMIT_MESSAGE" value="推荐样例模块-构建-增补模版" />
   </component>
 </project>
