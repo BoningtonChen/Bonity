@@ -1,6 +1,6 @@
 # Bonity
 
-## A Bonington's Website Project
+## A **Bonington's** Website Project
 
 ## Techniques Used
 
@@ -38,7 +38,10 @@
 >- Affinity Publisher (Typography)
 >- Permute 3 (Transcoding)
 
+
 ## Introduction
+
+[Click here to visit my website](https://bonitied.netlify.app/)
 - A very first front-end project built by Bonington Chen
 - Idea partly from a front-end course series "Code With Mosh"
 
