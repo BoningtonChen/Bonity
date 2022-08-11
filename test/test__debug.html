@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index-TEST_Layouts</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/style.css">
+
+  <script src="https://kit.fontawesome.com/75726138de.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <main>
+    <section class="block block--dark block--shewed-left hero">
+
+      <div class="container grid grid--1t2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">Bonity：纯净的微型社区</h1>
+          <p class="hero__tagline">
+            畅所欲言,
+            以及 构建专属于自己的微型社群。
+          </p>
+          <a href="" class="btn btn--accent btn--stretched">现在开始</a>
+        </header>
+        <picture>
+          <source
+                  type="image/webp"
+                  srcset="../images/example-W_HuangHu@1x.webp 1x,
+              ../images/example-W_HuangHu@2x.webp 2x"
+          />
+          <source
+                  type="image/png"
+                  srcset="../images/example-W_HuangHu@1x.png 1x,
+              ../images/example-W_HuangHu@2x.png 2x"
+          />
+          <img src="../images/example-W_HuangHu@2x.png" alt="Hero Header" class="heron_image">
+        </picture>
+      </div>
+    </section>
+    <section class="block container block-register">
+      <header class="block__header">
+        <h2>开始注册自己的专属博客计划</h2>
+        <p>
+          包含个人博客，以及可选的附加资格。
+        </p>
+        <p>
+          如有意向参与项目构建，请联系开发者。
+        </p>
+      </header>
+      <div class="input-group">
+        <input
+                type="text"
+                class="input"
+                placeholder="请在此输入用户名..."
+        >
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use xlink:href="icons/sprite.svg#magnifying-glass-solid"></use>
+          </svg>
+          搜索
+        </button>
+      </div>
+      <ul class="list block-register__option">
+        <li>
+      <span class="badge badge--secondary">
+        仅 博客
+      </span>
+        </li>
+        <li>+ 社区入驻</li>
+        <li>+ 社区注册资格</li>
+        <li>参与项目构建</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

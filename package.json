@@ -1,0 +1,28 @@
+{
+  "name": "bonity",
+  "version": "1.0.0",
+  "description": "A Bonington's Website project: Quick start of your own blog and community.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoningtonChen/Bonity.git"
+  },
+  "keywords": [
+    "Bonity"
+  ],
+  "author": "Bonington Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoningtonChen/Bonity/issues"
+  },
+  "homepage": "https://github.com/BoningtonChen/Bonity#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
