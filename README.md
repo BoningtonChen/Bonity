@@ -34,7 +34,7 @@
 >   - Permute 3 (Transcoding)
 
 ## Introduction
-- A very first front-end project build by Bonington Chen
+- A very first front-end project built by Bonington Chen
 - Idea partly from a front-end course series "Code With Mosh"
 
 ### Webpage
@@ -63,3 +63,4 @@
     - Plan block
     - Introduction article
     - Feature display
+    - Showcase block
