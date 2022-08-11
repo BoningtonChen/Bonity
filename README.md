@@ -64,3 +64,4 @@
     - Introduction article
     - Feature display
     - Showcase block
+    - Recommend block

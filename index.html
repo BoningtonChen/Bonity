@@ -18,80 +18,53 @@
     <!--
     TODO: Index content
     -->
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block">
       <header class="block__header">
-        <h2>用户友好型的界面</h2>
+        <h2>设计师的评价</h2>
+        <p>
+          关于国防工业，和划时代的意义。
+        </p>
       </header>
-      <div class="container grid grid--1t2">
-        <picture class="block-showcase__image">
-          <source
-                  type="image/webp"
-                  srcset="images/example-MW3@1x.webp 1x,
-                  images/example-MW3@2x.webp 2x"
-          />
-          <source
-                  type="image/png"
-                  srcset="images/example-MW3@1x.png 1x,
-                  images/example-MW3@2x.png 2x"
-          />
-          <img src="images/example-MW3@2x.png" alt="Example Image">
-        </picture>
-        <ul class="list">
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="icons/sprite.svg#photo-film-solid"></use>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1t2">
+            <div class="testimonial__image">
+              <img
+                      src="images/example-J20-SideView.JPG"
+                      alt="J-20 Side View as an example image"
+              >
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="icons/sprite.svg#quote-left-solid"></use>
                 </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">便捷起步 有序管理</h3>
-                <p>
-                  快速发布您的兴趣内容。
-                </p>
-                <p>
-                  使用多种媒体手段，包括但不限于视频、音频、图文。
-                </p>
-              </div>
+              </span>
+
             </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="icons/sprite.svg#wordpress-brands"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">丰富样式 无限精彩</h3>
-                <p>
-                  无须花费时间解决排版问题。
-                </p>
-                <p>
-                  使用丰富的样式模版和现成的代码类库。
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="icons/sprite.svg#snapchat-brands"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">社交平台 一站搞定</h3>
-                <p>
-                  想和对方交流又担心隐私泄漏？
-                </p>
-                <p>
-                  依托JS和Redis的数据管理和加密，随机分发密钥标识符，解决隐私跟踪问题。
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
+            <blockquote class="quote">
+              <p class="quote__text">
+                歼20不是一个机型的代号，而是中国航空工业发展成就的代名词。
+              </p>
+              <p class="quote__text">
+                以运20、歼20、直20为代表的20时代，展示出我军装备制造迈上了新台阶，展示出航空工业能力迈上新台阶，自主发展航空装备的信心迈上了新台阶。
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="icons/sprite.svg#link-solid"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author"> —— 杨伟</h3>
+                    <p class="quote__organization">
+                      歼-20"威龙"（Chengdu J-20）  总设计师
+                    </p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
       </div>
     </section>
   </main>
