@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get started of your own personal blog and community here in 60 seconds.">
+    <meta property="og:title" content="Bonity...">
+    <meta property="og:description" content="A fast social and web service community.">
+    <meta property="og:type" content="website">
+    <title>Bonity -- A Bonington's Open-source Society</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://kit.fontawesome.com/75726138de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="nav collapsible">
+      <a href="/"><img src="images/Bonity_LOGO_dark.PNG" alt=""></a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="icons/sprite.svg#bars-solid"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item">
+          <a href="#">个人博客</a>
+        </li>
+        <li class="nav__item">
+          <a href="#">开放式社区</a>
+        </li>
+        <li class="nav__item">
+          <a href="#">专属社区</a>
+        </li>
+        <li class="nav__item">
+          <a href="#">开源项目 构建</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!--
+    TODO: Index content
+    -->
+    <section class="block block--dark block--shewed-left hero">
+      <div class="container grid grid--1t2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">Bonity：纯净的微型社区</h1>
+          <p class="hero__tagline">
+            畅所欲言,
+            以及 构建专属于自己的微型社群。
+          </p>
+          <a href="" class="btn btn--accent btn--stretched">现在开始</a>
+        </header>
+        <picture>
+          <source
+                  type="image/webp"
+                  srcset="images/example-W_HuangHu@1x.webp 1x,
+              images/example-W_HuangHu@2x.webp 2x"
+          />
+          <source
+                  type="image/png"
+                  srcset="images/example-W_HuangHu@1x.png 1x,
+              images/example-W_HuangHu@2x.png 2x"
+          />
+          <img src="images/example-W_HuangHu@2x.png" alt="Hero Header" class="heron_image">
+        </picture>
+      </div>
+    </section>
+
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>用户友好型的界面</h2>
+      </header>
+      <div class="container grid grid--1t2">
+        <picture class="block-showcase__image">
+          <source
+                  type="image/webp"
+                  srcset="images/example-MW3@1x.webp 1x,
+                  images/example-MW3@2x.webp 2x"
+          />
+          <source
+                  type="image/png"
+                  srcset="images/example-MW3@1x.png 1x,
+                  images/example-MW3@2x.png 2x"
+          />
+          <img src="images/example-MW3@2x.png" alt="Example Image">
+        </picture>
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="icons/sprite.svg#photo-film-solid"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">便捷起步 有序管理</h3>
+                <p>
+                  快速发布您的兴趣内容。
+                </p>
+                <p>
+                  使用多种媒体手段，包括但不限于视频、音频、图文。
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="icons/sprite.svg#wordpress-brands"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">丰富样式 无限精彩</h3>
+                <p>
+                  无须花费时间解决排版问题。
+                </p>
+                <p>
+                  使用丰富的样式模版和现成的代码类库。
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="icons/sprite.svg#snapchat-brands"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">社交平台 一站搞定</h3>
+                <p>
+                  想和对方交流又担心隐私泄漏？
+                </p>
+                <p>
+                  依托JS和Redis的数据管理和加密，随机分发密钥标识符，解决隐私跟踪问题。
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block container block-register">
+      <header class="block__header">
+        <h2>开始注册自己的专属博客计划</h2>
+        <p>
+          包含个人博客，以及可选的附加资格。
+        </p>
+        <p>
+          如有意向参与项目构建，请联系开发者。
+        </p>
+      </header>
+      <div class="input-group">
+        <input
+                type="text"
+                class="input"
+                placeholder="请在此输入用户名..."
+        >
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use xlink:href="icons/sprite.svg#magnifying-glass-solid"></use>
+          </svg>
+          搜索
+        </button>
+      </div>
+      <ul class="list block-register__option">
+        <li>
+      <span class="badge badge--secondary">
+        仅 博客
+      </span>
+        </li>
+        <li>+ 社区入驻</li>
+        <li>+ 社区注册资格</li>
+        <li>参与项目构建</li>
+      </ul>
+    </section>
+
+    <section class="block container">
+      <header class="block__header">
+        <h2>完全自由开放的社区平台</h2>
+        <p>
+          自由注册，开放、开源。专业的数据管理。
+        </p>
+      </header>
+      <!--      个人博客 简介页面 -->
+      <article class="grid grid--1t2 feature">
+        <div class="feature__content">
+        <span class="icon-container">
+          <svg class="icon icon--primary">
+              <use xlink:href="icons/sprite.svg#arrow-up-right-dots-solid"></use>
+          </svg>
+        </span>
+          <h3 class="feature__heading">个人博客：最便捷的使用</h3>
+          <p>
+            快速上手，自由部署您的私人博客。
+          </p>
+          <p>
+            留住灵感。
+          </p>
+          <p>
+            搭建您的个性化个人博客。
+          </p>
+          <p>
+            发布您的日常见闻和新奇发现。
+          </p>
+          <div>
+            <a href="#" class="link-arrow">
+              快速开始
+            </a>
+            <i class="fa-solid fa-arrow-right link-arrow"></i>
+          </div>
+        </div>
+        <picture>
+          <source
+                  type="image/webp"
+                  srcset="images/example-ZhuoXinSiKaDi@1x.webp 1x,
+                  images/example-ZhuoXinSiKaDi@2x.webp 2x"
+          />
+          <source
+                  type="image/png"
+                  srcset="images/example-ZhuoXinSiKaDi@1x.png 1x,
+                  images/example-ZhuoXinSiKaDi@2x.png 2x"
+          />
+          <img class="feature__image" src="images/example-ZhuoXinSiKaDi@2x.png" alt="Feature Picture">
+        </picture>
+      </article>
+
+      <!--      社区入驻 简介页面 -->
+      <article class="grid grid--1t2 feature">
+        <div class="feature__content">
+        <span class="icon-container">
+          <svg class="icon icon--primary">
+              <use xlink:href="icons/sprite.svg#house-solid"></use>
+          </svg>
+        </span>
+          <h3 class="feature__heading">社区入驻：最丰富的内容</h3>
+          <p>
+            想发表您的第一手资讯？无需从零开始。
+          </p>
+          <p>
+            统一风格的视觉效果，给您带来精彩纷呈的社区内容。
+          </p>
+          <p>
+            平台的内置发布平台，支持Markdown、LaTex排版，以及海量模版。总有一款适合您。
+          </p>
+          <p>
+            生活需要一点仪式感。既是文案，也是作品。
+          </p>
+          <p>
+            与您志同道合的人，都在这里。
+          </p>
+          <div>
+            <a href="#" class="link-arrow">
+              立刻开始
+            </a>
+            <i class="fa-solid fa-arrow-right link-arrow"></i>
+          </div>
+        </div>
+        <picture>
+          <source
+                  type="image/webp"
+                  srcset="images/example-XingJi_TiaoWang@1x.webp 1x,
+              images/example-XingJi_TiaoWang@2x.webp 2x"
+          />
+          <source
+                  type="image/png"
+                  srcset="images/example-XingJi_TiaoWang@1x.png 1x,
+                  images/example-XingJi_TiaoWang@2x.webp 2x"
+          />
+          <img class="feature__image" src="images/example-XingJi_TiaoWang@2x.png" alt="Feature Picture">
+        </picture>
+      </article>
+
+      <!--      社区注册资格 简介页面 -->
+      <article class="grid grid--1t2 feature">
+        <div class="feature__content">
+        <span class="icon-container">
+          <svg class="icon icon--primary">
+              <use xlink:href="icons/sprite.svg#address-card-solid"></use>
+          </svg>
+        </span>
+          <h3 class="feature__heading">社区注册：最专业的服务</h3>
+          <p>
+            个性化定制您的社区。
+          </p>
+          <p>
+            呼唤思想。
+          </p>
+          <p>
+            构建您理想中的社区氛围。
+          </p>
+          <p>
+            号召您志同道合的朋友，然后，畅所欲言！
+          </p>
+          <div>
+            <a href="#" class="link-arrow">
+              掌控一切
+            </a>
+            <i class="fa-solid fa-arrow-right link-arrow"></i>
+          </div>
+        </div>
+        <picture>
+          <source
+                  type="image/webp"
+                  srcset="images/example-ChengShan@1x.webp 1x,
+                  images/example-ChengShan@2x.webp 2x"
+          />
+          <source
+                  type="image/png"
+                  srcset="images/example-ChengShan@1x.png 1x,
+                  images/example-ChengShan@2x.png 2x"
+          />
+          <img class="feature__image" src="images/example-ChengShan@2x.png" alt="Feature Picture">
+        </picture>
+      </article>
+    </section>
+
+    <section class="block container block-plans">
+      <div class="grid grid--1t3">
+
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">仅 博客</h3>
+              <span class="plan__price">0 ¥</span>
+              <span class="plan__billing-cycle">/月</span>
+              <span class="badge bade--secondary badge--small">免费</span>
+              <span class="plan__description">构建和部署您的个人博客。免费，快速上手</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__iterm">浏览本站的全部公开博客</li>
+                <li class="list__iterm">添加好友，即时分享</li>
+                <li class="list__iterm">基础数据存储服务</li>
+              </ul>
+              <button class="btn btn--outline btn--block">快速上手</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="plan plan--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">博客 +社区入驻</h3>
+              <span class="plan__price">0 ¥</span>
+              <span class="plan__billing-cycle">/月</span>
+              <span class="badge bade--secondary badge--small">*可购买数据增益</span>
+              <span class="plan__description">自由支配您的个人博客，外加畅游公开社区。完全免费，自由发挥！</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__iterm">以上全部内容，附加——</li>
+                <li class="list__iterm">浏览时下热门的社区讨论</li>
+                <li class="list__iterm">数据存储拓展服务</li>
+              </ul>
+              <button class="btn btn--outline btn--block">立刻开始！</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">博客 +社区注册资格</h3>
+              <span class="plan__price">0 ¥</span>
+              <span class="plan__billing-cycle">/月</span>
+              <span class="badge bade--secondary badge--small">*仅早期资格免费</span>
+              <span class="plan__description">成为您兴趣领域的掌门人。完全管理您的社区，没有限制。</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__iterm">以上全部内容，附加——</li>
+                <li class="list__iterm">管理和掌控您的社区</li>
+                <li class="list__iterm">数据管理查询和增益</li>
+              </ul>
+              <button class="btn btn--outline btn--block">马上掌握！</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <div class="card testimonial">
+      <div class="grid grid--1t2">
+        <div class="testimonial__image">
+          <img
+                  src="images/example-J20-SideView.JPG"
+                  alt="J-20 Side View as an example image"
+          >
+          <span class="icon-container icon-container--accent">
+          <svg class="icon icon--white icon--small">
+            <use xlink:href="icons/sprite.svg#quote-left-solid"></use>
+          </svg>
+        </span>
+
+        </div>
+        <blockquote class="quote">
+          <p class="quote__text">
+            歼20不是一个机型的代号，而是中国航空工业发展成就的代名词。
+          </p>
+          <p class="quote__text">
+            以运20、歼20、直20为代表的20时代，展示出我军装备制造迈上了新台阶，展示出航空工业能力迈上新台阶，自主发展航空装备的信心迈上了新台阶。
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary quote__line">
+                  <use xlink:href="icons/sprite.svg#link-solid"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title quote__author"> —— 杨伟</h3>
+                <p class="quote__organization">
+                  歼-20"威龙"（Chengdu J-20）  总设计师
+                </p>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </main>
+
+  <footer class="block block--dark footer">
+    <div class="container grid footer__sections">
+      <section class="collapsible collapsible--expanded footer__section">
+        <div class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">个人博客 · Blog</h2>
+          <svg class="icon collapsible__chevron">
+            <use xlink:href="icons/sprite.svg#circle-chevron-down-solid"></use>
+          </svg>
+        </div>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">发布</a></li>
+            <li><a href="#">整理</a></li>
+            <li><a href="#">回顾</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="collapsible footer__section">
+        <div class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">社区 · Community</h2>
+          <svg class="icon collapsible__chevron">
+            <use xlink:href="icons/sprite.svg#circle-chevron-down-solid"></use>
+          </svg>
+        </div>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">浏览</a></li>
+            <li><a href="#">加入</a></li>
+            <li><a href="#">创建</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="collapsible footer__section">
+        <div class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">构建 · Build</h2>
+          <svg class="icon collapsible__chevron">
+            <use xlink:href="icons/sprite.svg#circle-chevron-down-solid"></use>
+          </svg>
+        </div>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">页面</a></li>
+            <li><a href="#">后端</a></li>
+            <li><a href="#">数据库</a></li>
+          </ul>
+        </div>
+      </section>
+      <div class="footer__brand">
+        <img src="images/Bonity_LOGO_dark.PNG" alt="LOGO">
+        <p class="footer__copyright">
+          Copyright &copy;2022 Bonington Chen
+        </p>
+      </div>
+    </div>
+  </footer>
+
+<!--
+Index script
+-->
+  <script src="script/main.js"></script>
+
+</body>
+</html>
