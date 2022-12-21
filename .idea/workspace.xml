@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="build project">
-      <change afterPath="$PROJECT_DIR$/../first_node/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../first_node/.idea/first_node.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../first_node/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../first_node/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../first_node/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node_basics/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node_basics/.idea/node_basics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node_basics/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node_basics/chap.1-Basic_test/test_node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node_basics/chap.2-Node_Module_System/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node_basics/chap.2-Node_Module_System/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node_basics/chap.2-Node_Module_System/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node_basics/chap.2-Node_Module_System/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node_basics/package.json" afterDir="false" />
+    <list default="true" id="8b2e81e0-b7aa-4796-a67e-ae4328c35b9d" name="变更" comment="rebuild project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Project.color": "5c3f2a",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/bonington/WebstormProjects/Bonity",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Project.color&quot;: &quot;5c3f2a&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bonington/WebstormProjects/Bonity&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
@@ -85,6 +79,23 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/styles" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,7 +123,8 @@
       <workItem from="1660204439331" duration="1321000" />
       <workItem from="1660220436505" duration="127000" />
       <workItem from="1660222659373" duration="391000" />
-      <workItem from="1671541690930" duration="51000" />
+      <workItem from="1671541690930" duration="391000" />
+      <workItem from="1671583047422" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="测试-提交">
       <created>1659593470929</created>
@@ -394,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660220519577</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="rebuild project">
+      <created>1671541961572</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1671541961573</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,12 +446,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="列表构建-完善" />
     <MESSAGE value="图标构建-完善" />
     <MESSAGE value="  输入组构建-完善" />
     <MESSAGE value="输入组构建-完善" />
@@ -457,7 +477,8 @@
     <MESSAGE value="构建发行版&#10;add parcel&#10;build" />
     <MESSAGE value="add .htmlnanorc" />
     <MESSAGE value="build project" />
-    <option name="LAST_COMMIT_MESSAGE" value="build project" />
+    <MESSAGE value="rebuild project" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebuild project" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
